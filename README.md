@@ -47,3 +47,6 @@ will run the code for the data file Run000. It will produce, and save to file, t
 
 The option '-R' is important to open the Root output file ('aida_sort_Run000.root', naming is automatic), otherwise the output will not be saved once code finishes execution.
 
+>./aida_sort_nn_v1.exe -L 25 24 13 -U 2 -C 2 -A 2 -R
+
+will run the code for the data file's from R25_24 to R25_36 (13th file). -L is used to run multiple run files at the same time.
